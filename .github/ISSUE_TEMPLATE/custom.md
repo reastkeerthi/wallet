@@ -3,7 +3,7 @@ name: Custom issue template
 about: Describe this issue template's purpose here.
 title: ''
 labels: bug, help wanted, question
-assignees: reastkeerthi, collabjoint
+assignees: collabjoint, reastkeerthi
 
 ---
 
@@ -12,4 +12,4 @@ Thank you for reaching out. Please note that this repository offers a range of f
 Next Steps:
  For help with transactions or transfer issues, we recommend contacting our support team directly.
 
-                       User Descriptions of issue:
+         User Descriptions of issue:
