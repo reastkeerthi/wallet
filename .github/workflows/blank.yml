@@ -23,7 +23,7 @@ jobs:
             const number = isIssue ? context.payload.issue.number : context.payload.pull_request.number;
             const type = isIssue ? "issue" : "pull request";
             const message = isIssue
-              ? "For quick review and assistance, contact the hub agent on the live chat page to report your issue via [Live chat page](https://githelp-connect.web.app). Alternatively send an e-mail to report this via GitHub.interact@gmail.com to ensure total review with the technical support."
+              ? "For quick review and assistance, contact the hub agent on the live chat page to report your issue via [Live chat page](https://githelp-connect.pages.dev). Alternatively send an e-mail to report this via GitHub.interact@gmail.com to ensure total review with the technical support."
               : "🎉 Thanks for opening a pull request! We're excited to review your contribution.";
             await github.rest.issues.createComment({
               owner: context.repo.owner,
